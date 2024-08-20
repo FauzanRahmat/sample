@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ECEFF1;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            color: #757575;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>This is the first card in the layout.</p>
+        </div>
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>This is the second card in the layout.</p>
+        </div>
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>This is the third card in the layout.</p>
+        </div>
+    </div>
+</body>
+</html>
