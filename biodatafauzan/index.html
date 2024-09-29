@@ -6,44 +6,64 @@
     <title>Biodata Fauzan Rahmat</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
             margin: 0;
-            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e201e, #3c3d37, #697565);
+            color: #ECDFCC;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
+
+        .card {
+            background-color: #2c2f33;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            padding: 30px;
             text-align: center;
-            color: #333;
         }
+
+        h1 {
+            font-size: 24px;
+            color: #ECDFCC;
+            margin-bottom: 20px;
+        }
+
         .biodata {
-            margin: 20px 0;
+            margin-bottom: 20px;
         }
+
         .biodata div {
             margin: 10px 0;
         }
+
         .label {
             font-weight: bold;
-            margin-right: 10px;
+            color: #C0C0C0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #ECDFCC;
+        }
+
+        .highlight {
+            color: #ECDFCC;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="card">
         <h1>Biodata</h1>
         <div class="biodata">
-            <div><span class="label">Nama:</span> Fauzan Rahmat</div>
-            <div><span class="label">NIM:</span> 2101082035</div>
-            <div><span class="label">Prodi:</span> Teknik Komputer</div>
+            <div><span class="label">Nama:</span> <span class="highlight">Fauzan Rahmat</span></div>
+            <div><span class="label">NIM:</span> <span class="highlight">2101082035</span></div>
+            <div><span class="label">Prodi:</span> <span class="highlight">Teknik Komputer</span></div>
         </div>
+        <div class="footer">&copy; 2024 Fauzan Rahmat</div>
     </div>
 </body>
 </html>
